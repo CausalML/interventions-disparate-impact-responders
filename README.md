@@ -2,4 +2,8 @@
 Assessing Disparate Impacts of Personalized Interventions: Identifiability and Bounds
 
 
-Code to be better documented and made more runnable. 
+Code to be better documented and made more runnable. Contact Angela at az434@cornell.edu for any questions or issues.
+
+
+#### Data for Behaghel et al. case study 
+The Behaghel et al. dataset can be downloaded from: https://www.aeaweb.org/articles?id=10.1257/app.6.4.142. We generate the subset used by adding ```outsheet using data.csv, comma ``` at line 269 of the Stata dofile (DoFilePrivatePublic.do). Data preparation in ```behaghel-dataset-cleaning.ipynb```.
