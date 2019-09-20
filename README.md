@@ -6,4 +6,4 @@ Code to be better documented and made more runnable. Contact Angela at az434@cor
 
 
 #### Data for Behaghel et al. case study 
-The Behaghel et al. dataset can be downloaded from: https://www.aeaweb.org/articles?id=10.1257/app.6.4.142. We generate the subset we use by adding ```outsheet using data.csv, comma ``` at line 269 of the Stata dofile (DoFilePrivatePublic.do).
+The Behaghel et al. dataset can be downloaded from: https://www.aeaweb.org/articles?id=10.1257/app.6.4.142. We generate the subset used by adding ```outsheet using data.csv, comma ``` at line 269 of the Stata dofile (DoFilePrivatePublic.do). Data preparation in ```behaghel-dataset-cleaning.ipynb```.
